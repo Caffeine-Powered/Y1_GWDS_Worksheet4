@@ -114,7 +114,18 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     
+}
+
+figcaption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    text-align:center;
 }
 
 /* section 5 media items */
